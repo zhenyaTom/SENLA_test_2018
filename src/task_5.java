@@ -15,7 +15,7 @@ public class task_5 {
         String searchword=input.nextLine();
 
         //Remove all delimiters
-        text = text.replaceAll("[^а-яА-Я a-zA-Z]", "");
+        text = text.replaceAll("[^а-яА-Я a-zA-Z]", " ");
 
         //Creating an array
         String words [];
