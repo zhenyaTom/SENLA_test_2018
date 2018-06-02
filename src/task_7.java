@@ -9,7 +9,7 @@ public class task_7 {
     public static void main(String[] args) {
         //Input and check
         int N;
-        Scanner input= new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         System.out.println("Введите длину рандомно генерируемого массива:");
         if (input.hasNextInt()) {
             N = input.nextInt();
