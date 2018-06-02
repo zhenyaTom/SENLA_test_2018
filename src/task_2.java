@@ -36,7 +36,7 @@ public class task_2 {
         System.out.println("НОК: "+lcm);
     }
 
-    //Class for GCD (Greatest Common Divisor)
+    //GCD (Greatest Common Divisor)
     private static int gcd(int a, int b) {
         while (b!=0) {
             int c=a%b;

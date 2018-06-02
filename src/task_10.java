@@ -76,7 +76,7 @@ public class task_10 {
         System.out.println(num3);
     }
 
-    //Class for Combining digits into numbers
+    //Combining digits into numbers
     private static int comb (int a, int b, int c) {
         return (a*100+b*10+c);
     }
